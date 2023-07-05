@@ -4,3 +4,55 @@
     box-sizing: border-box;
 }
 
+.wrapper{
+    background-color: #02203c;
+    padding: 30px;
+    display: flex; 
+    align-items: center;
+  
+
+}
+
+h1{
+    color: white;
+    font-size: 48px;
+    margin-left: 50px;
+    
+}
+
+
+.logo::before{
+    width: 100px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid white;
+    content: "";
+    transform: rotate(45deg);
+    position: absolute;
+    top: 40px;
+    left: -20px;
+}
+.logo{ 
+    content: "";
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 3px;
+   }
+.logo::after{
+    width: 100px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid white;
+    content: "";
+    transform: rotate(-45deg);
+    position: absolute ;
+    top: 40px;
+    left: -18px;
+}
+
+
+
+
+
